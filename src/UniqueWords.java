@@ -3,17 +3,23 @@ import java.util.HashSet;
 
 public class UniqueWords
 {
-   /**
-		counts the number of unique strings in a list
-		@param list ArrayList of strings to be examined
-		@return number of unique strings in the list
-   */
+   
    public static int countUnique(ArrayList<String> list)
    {
-      // Use a HashSet to store unique elements
       HashSet<String> uniqueWords = new HashSet<>(list);
-      // The size of the HashSet is the number of unique strings
       return uniqueWords.size();
+   }
+   
+   public static void giveIntro() {
+       System.out.println("Project:    Lab 2-Git");
+       System.out.println("Class:      UniqueWords.java");
+       System.out.println("Author:     Christopher Joshua Sanon");
+       System.out.println("Date:       September 30th, 2024");    	  	
+       System.out.println("This program reads an input file with family");
+       System.out.println("information and provides information about the");
+       System.out.println("maternal line, paternal line, children, and siblings of");
+       System.out.println("various people.");
+       System.out.println();
    }
 
    public static void main(String[] args)
