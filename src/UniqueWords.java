@@ -15,15 +15,16 @@ public class UniqueWords
        System.out.println("Class:      UniqueWords.java");
        System.out.println("Author:     Christopher Joshua Sanon");
        System.out.println("Date:       September 30th, 2024");    	  	
-       System.out.println("This program reads an input file with family");
-       System.out.println("information and provides information about the");
-       System.out.println("maternal line, paternal line, children, and siblings of");
-       System.out.println("various people.");
+       System.out.println("This program shows how to use");
+       System.out.println("Git, GitHub, and your Command Prompt");
+       System.out.println("with Eclipse to Push a Project");
        System.out.println();
    }
 
    public static void main(String[] args)
    {
+	   giveIntro();
+	   
       ArrayList<String> words = new ArrayList<>();
       words.add("apple");
       words.add("orange");
